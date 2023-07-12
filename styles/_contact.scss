@@ -1,0 +1,52 @@
+.contactContentOne {
+    text-align: center;
+
+    a {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    h2 {
+        font-size: 2rem;
+        padding-top: 2rem;
+        font-weight: 300;
+    }
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-evenly;
+    section {
+        width: 50%;
+    }
+    
+    .fa-envelope {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+
+    .contact {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+.rightContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    ul {
+        text-align: left;
+
+        li {
+            padding: 1rem 0;
+        }
+    }
+    
+}
+
+.fa-solid {
+    font-size: 2rem;
+    
+}

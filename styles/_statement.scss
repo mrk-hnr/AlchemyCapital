@@ -1,0 +1,81 @@
+.contentThree {
+    padding: 3rem 30rem 0 30rem;
+    text-align: left;
+    
+
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    p, ul {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        text-align: left;
+        list-style: circle;
+        padding-left: 2rem;
+    }
+}
+
+.hideMeOne, .hideMeTwo, .hideMeThree, .hideMeFour {
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.contentFour {
+    padding: 5rem 30rem;
+
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    section {
+        width: 20%;
+        padding: 2rem 0;
+    }
+}
+
+.yr2018, .yr2023, .yr2024 {
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 1rem;
+        border: 1px solid white;
+        transform-origin: 0 0;      
+        
+    }
+}
+
+.yearContainer {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-evenly;
+    border-collapse: collapse;
+}
+
+.yr2023 {
+    align-self: center;
+}
+
+.yr2024 {
+    align-self: end;
+}

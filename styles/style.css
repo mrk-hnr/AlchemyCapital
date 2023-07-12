@@ -258,13 +258,6 @@ body {
   padding: 2rem 0;
 }
 
-.yearContainer {
-  width: 100% !important;
-  display: flex;
-  justify-content: space-evenly;
-  border-collapse: collapse;
-}
-
 .yr2018, .yr2023, .yr2024 {
   text-align: center;
   height: 10rem;
@@ -280,6 +273,13 @@ body {
   padding: 1rem;
   border: 1px solid white;
   transform-origin: 0 0;
+}
+
+.yearContainer {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-evenly;
+  border-collapse: collapse;
 }
 
 .yr2023 {

@@ -1,0 +1,60 @@
+.headerContainer {
+    background: #09090b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+    height: 10rem;
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.75);
+
+    .leftHeader {
+        // background: green;
+        justify-content: left;
+        width: 100%;
+    }
+
+    .rightHeader {
+        justify-content: right;
+        // background: yellow;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+.leftHeader {
+    display: flex;
+}
+
+.imgContainer {
+    img {
+        width: 13rem;
+        padding: 0 0 1rem 2rem;
+    }
+}
+
+.alchemContainer {
+
+
+    padding-top: 3rem;
+    margin-left: -2rem;
+
+    #capital-el {
+        padding-left: 4rem;
+    }
+}
+
+.rightHeader {
+    ul {
+        display: flex;
+
+        li {
+            padding: 0 2rem;
+            align-items: center;
+            margin: 0 auto;
+
+        }
+    }
+}

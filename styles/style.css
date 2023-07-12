@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-width: 375px;
+  overflow-x: hidden;
+  background: #09090b;
+  color: white;
+  overflow: hidden;
+}
+
+.headerContainer {
+  background: #09090b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.5rem;
+  height: 10rem;
+  box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.75);
+}
+.headerContainer .leftHeader {
+  justify-content: left;
+  width: 100%;
+}
+.headerContainer .rightHeader {
+  justify-content: right;
+  width: 100%;
+  text-align: right;
+}
+
+.leftHeader {
+  display: flex;
+}
+
+.imgContainer img {
+  width: 13rem;
+  padding: 0 0 1rem 2rem;
+}
+
+.alchemContainer {
+  padding-top: 3rem;
+  margin-left: -2rem;
+}
+.alchemContainer #capital-el {
+  padding-left: 4rem;
+}
+
+.rightHeader ul {
+  display: flex;
+}
+.rightHeader ul li {
+  padding: 0 2rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.bgSection {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-position-y: 87%;
+  height: 55rem;
+  opacity: 0.8;
+  padding: 0;
+}
+
+.footerContainer {
+  height: 105rem;
+}
+
+.topFooterImgContainer {
+  height: 12rem;
+  text-align: center;
+}
+.topFooterImgContainer img {
+  width: 20rem;
+  margin-top: -3rem;
+}/*# sourceMappingURL=style.css.map */

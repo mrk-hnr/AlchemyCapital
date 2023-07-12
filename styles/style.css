@@ -24,7 +24,6 @@ body {
   overflow-x: hidden;
   background: #09090b;
   color: white;
-  overflow: hidden;
 }
 
 .headerContainer {
@@ -79,14 +78,26 @@ body {
   flex-wrap: wrap;
   background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
   background-size: cover;
+  background-attachment: fixed;
   background-position-y: 87%;
-  height: 55rem;
   opacity: 0.8;
   padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footerContainer {
-  height: 105rem;
+.homeSize {
+  height: 80vh;
+}
+
+.nonHomeSize {
+  height: 50vh;
+}
+
+.homeLogo {
+  padding-top: 10rem;
 }
 
 .topFooterImgContainer {
@@ -96,4 +107,24 @@ body {
 .topFooterImgContainer img {
   width: 20rem;
   margin-top: -3rem;
+}
+
+.midFooterSocialsContainer .fa-brands {
+  font-size: 2.5rem;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.midFooterSocialsContainer ul {
+  display: flex;
+  justify-content: center;
+}
+.midFooterSocialsContainer ul li {
+  padding: 1rem;
+}
+
+.bottomFooterRights {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

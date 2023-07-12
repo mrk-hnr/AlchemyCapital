@@ -2,9 +2,26 @@
     flex-wrap: wrap;
     background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
     background-size: cover;
+    background-attachment: fixed;
     background-position-y: 87%;
-    height: 55rem;
+
     opacity: .8;
     padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.homeSize {
+    height: 80vh;
+}
+
+.nonHomeSize {
+    height: 50vh;
+}
+
+
+.homeLogo {
+    padding-top: 10rem;
 }

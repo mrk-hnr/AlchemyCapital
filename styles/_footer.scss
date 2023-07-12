@@ -1,5 +1,9 @@
-// .footerContainer {
-// }
+.footerContainer {
+
+    box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
+-webkit-box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
+-moz-box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
+}
 
 .topFooterImgContainer {
     height: 12rem;

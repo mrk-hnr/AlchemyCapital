@@ -26,6 +26,80 @@ body {
   color: white;
 }
 
+.bgHome {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 87%;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgmission {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/mission.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 55%;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgstatement {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-alesia-kozik-6771664.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 65%;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgTeams {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/teams.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 50%;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgContact {
+  flex-wrap: wrap;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/contact.jpg") repeat scroll center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 50%;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeSize {
+  height: 80vh;
+}
+
 .headerContainer {
   background: #09090b;
   display: flex;
@@ -74,24 +148,6 @@ body {
   margin: 0 auto;
 }
 
-.bgSection {
-  flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-y: 87%;
-  opacity: 0.8;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.homeSize {
-  height: 80vh;
-}
-
 .headerTextContainer {
   display: flex;
   flex-direction: column;
@@ -116,7 +172,6 @@ body {
 
 .contentOne {
   padding: 5rem 20rem;
-  background: #1b1b21;
 }
 .contentOne h2 {
   font-weight: 400;
@@ -129,14 +184,6 @@ body {
 .indentMe {
   padding-left: 10rem;
   font-size: 1.5rem;
-}
-
-.contentTwo {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 2rem 20rem;
-  background: #1b1b21;
 }
 
 .missionGoal {
@@ -152,6 +199,174 @@ body {
 .missionGoal p {
   font-size: 2.5rem;
   font-weight: 300;
+}
+
+.contentTwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2rem 20rem;
+}
+
+.contentTwoStatement {
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 30rem;
+}
+.contentTwoStatement .leftContentTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentThree {
+  padding: 3rem 30rem 0 30rem;
+  text-align: left;
+}
+.contentThree h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.contentThree h3 {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.contentThree p, .contentThree ul {
+  font-size: 1.5rem;
+}
+.contentThree ul {
+  text-align: left;
+  list-style: circle;
+  padding-left: 2rem;
+}
+
+.hideMeOne, .hideMeTwo, .hideMeThree, .hideMeFour {
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.contentFour {
+  padding: 5rem 30rem;
+}
+.contentFour h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.contentFour section {
+  width: 20%;
+  padding: 2rem 0;
+}
+
+.yearContainer {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-evenly;
+  border-collapse: collapse;
+}
+
+.yr2018, .yr2023, .yr2024 {
+  text-align: center;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.yr2018 p, .yr2023 p, .yr2024 p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.yr2018 h3, .yr2023 h3, .yr2024 h3 {
+  font-size: 2rem;
+  padding: 1rem;
+  border: 1px solid white;
+  transform-origin: 0 0;
+}
+
+.yr2023 {
+  align-self: center;
+}
+
+.yr2024 {
+  align-self: end;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.teamContainer img {
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+.teamContainer h2 {
+  font-size: 2.5rem;
+}
+.teamContainer h3 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.teamContainer section {
+  padding: 1rem;
+}
+
+.teamOne {
+  align-self: flex-start;
+}
+
+.teamThree {
+  align-self: flex-end;
+}
+
+.contactContentOne {
+  text-align: center;
+}
+.contactContentOne a {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.contactContentOne h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: 300;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contactContainer section {
+  width: 50%;
+}
+.contactContainer .fa-envelope {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.contactContainer .contact {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.rightContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightContact ul {
+  text-align: left;
+}
+.rightContact ul li {
+  padding: 1rem 0;
+}
+
+.fa-solid {
+  font-size: 2rem;
+}
+
+.footerContainer {
+  box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
+  -webkit-box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
+  -moz-box-shadow: -2px -15px 24px -11px rgba(40, 40, 40, 0.75);
 }
 
 .topFooterImgContainer {

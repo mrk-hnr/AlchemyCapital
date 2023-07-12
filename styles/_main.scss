@@ -1,21 +1,3 @@
-// -----BACKGROUND IMAGE STARTING POINT-----
-.bgSection {
-    flex-wrap: wrap;
-    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-y: 87%;
-    opacity: .8;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.homeSize {
-    height: 80vh; // Height of the imaged background for index.html
-}
 
 .headerTextContainer {
     display: flex;
@@ -45,7 +27,7 @@
 
 .contentOne {
     padding: 5rem 20rem;
-    background: #1b1b21;
+    // background: #1b1b21;
     
     h2 {
         font-weight: 400;
@@ -63,16 +45,6 @@
 }
 // -----PAGE DESCRIPTION ENDING POINT-----
 // -----PAGE CONTENT TWO STARTING POINT-----
-
-.contentTwo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 2rem 20rem;
-    background: #1b1b21;
-
-}
-
 .missionGoal {
     text-align: center;
     background: white;
@@ -89,4 +61,206 @@
     }
 }
 
+
+.contentTwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem 20rem;
+    // background: #1b1b21;
+}
+
+.contentTwoStatement {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 30rem;
+    
+    .leftContentTwo {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 // -----PAGE CONTENT TWO ENDING POINT-----
+// -----PAGE CONTENT THREE STARTING POINT-----
+
+.contentThree {
+    padding: 3rem 30rem 0 30rem;
+    text-align: left;
+    
+
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    p, ul {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        text-align: left;
+        list-style: circle;
+        padding-left: 2rem;
+    }
+}
+
+.hideMeOne, .hideMeTwo, .hideMeThree, .hideMeFour {
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+// -----PAGE CONTENT THREE ENDING POINT-----
+// -----PAGE CONTENT FOUR STARTING POINT-----
+
+
+.contentFour {
+    padding: 5rem 30rem;
+
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    section {
+        width: 20%;
+        padding: 2rem 0;
+    }
+}
+
+.yearContainer {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-evenly;
+    border-collapse: collapse;
+}
+
+.yr2018, .yr2023, .yr2024 {
+    text-align: center;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 1rem;
+        border: 1px solid white;
+        transform-origin: 0 0;      
+        
+    }
+}
+
+.yr2023 {
+    align-self: center;
+}
+
+.yr2024 {
+    align-self: end;
+}
+
+// -----PAGE CONTENT FOUR ENDING POINT-----
+// -----PAGE CONTENT TEAMS STARTING POINT-----
+
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+        border: 1px solid white;
+        border-radius: 1rem;;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+.teamOne {
+    align-self: flex-start;
+}
+
+.teamThree {
+    align-self: flex-end;
+}
+
+
+
+// CONTACT
+
+
+.contactContentOne {
+    text-align: center;
+
+    a {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    h2 {
+        font-size: 2rem;
+        padding-top: 2rem;
+        font-weight: 300;
+    }
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-evenly;
+    section {
+        width: 50%;
+    }
+    
+    .fa-envelope {
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+
+    .contact {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+.rightContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    ul {
+        text-align: left;
+
+        li {
+            padding: 1rem 0;
+        }
+    }
+    
+}
+
+.fa-solid {
+    font-size: 2rem;
+    
+}
+
+

@@ -1,0 +1,81 @@
+// -----BACKGROUND IMAGE STARTING POINT-----
+
+
+
+.bgHome {
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 87%;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bgmission {
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/mission.jpg") repeat scroll center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 55%;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgstatement {
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/pexels-alesia-kozik-6771664.jpg") repeat scroll center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 65%;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bgTeams {
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/teams.jpg") repeat scroll center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 50%;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgContact {
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/contact.jpg") repeat scroll center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 50%;
+    opacity: .8;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+.homeSize {
+    height: 80vh; // Height of the imaged background for index.html
+}

@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    min-width: 375px;
 }
 
 ul {
@@ -23,5 +25,8 @@ body {
     overflow-x: hidden;
     background: #09090b;
     color: white;
+    margin: 0;
+    padding: 0;
     // overflow: hidden;
 }
+

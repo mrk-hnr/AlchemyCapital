@@ -1,6 +1,12 @@
 // -----BACKGROUND IMAGE STARTING POINT-----
 
-
+.bgHome, .bgmission, .bgstatement, .bgTeams, .bgContact {
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
 
 .bgHome {
     flex-wrap: wrap;
@@ -14,7 +20,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    // animation-name: fadeIn;
+    // animation-iteration-count: 1;
+    // animation-timing-function: ease-in-out;
+    // animation-duration: 2s;
+    // animation-fill-mode:forwards;
 }
+
+
+
 
 
 .bgmission {
@@ -77,5 +91,15 @@
 
 
 .homeSize {
-    height: 80vh; // Height of the imaged background for index.html
+    height: 85vh; // Height of the imaged background for index.html
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

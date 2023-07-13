@@ -1,11 +1,22 @@
+.contentOneContact {
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+}
 .teamContainer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     text-align: center;
+    align-items: center;
 
     img {
         border: 1px solid white;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+
     }
 
     h2 {
@@ -17,7 +28,7 @@
     }
 
     section {
-        padding: 1rem;
+        padding: 5rem;
     }
 }
 
@@ -27,4 +38,17 @@
 
 .teamThree {
     align-self: flex-end;
+}
+
+.teamTwo {
+    margin-left: -12rem;
+}
+
+
+@media (max-width: 687px) {
+    .teamContainer {
+        imf {
+            margin-bottom: 1rem;
+        }
+    }
 }

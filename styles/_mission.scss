@@ -1,15 +1,31 @@
+.contentOneMission {
+    padding: 5%;
+    // background: #1b1b21;
+    text-align: center;
+    
+    h2 {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    p {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+}
+
 .missionGoal {
     text-align: center;
     background: white;
-    width: 30rem;
-    padding: 5rem 1rem;
-    margin: 0 1rem;
+    width: 25rem;
+    padding: 4rem 1rem;
+    margin: 1rem;
     color: black;
     border: 1px solid black;
-    border-radius: 1rem;
+    border-radius: .5rem;
 
     p {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 300;
     }
 }
@@ -19,7 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 2rem 20rem;
+    // padding: 2rem 20rem;
     // background: #1b1b21;
 }
 
@@ -33,4 +49,19 @@
         display: flex;
         justify-content: space-between;
     }
+}
+
+// .indentMe {
+//     padding-left: 5rem;
+//     
+// }
+
+
+@media (max-width: 550px) {
+    .contentOneMission {
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
 }

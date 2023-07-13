@@ -14,17 +14,18 @@
 
 .contactContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    section {
-        width: 50%;
-    }
+    padding: 0 5rem;
+    flex: 0 0 100%;
+    // section {
+    //     width: 50%;
+    // }
     
     .fa-envelope {
         font-size: 2rem;
         font-weight: 100;
     }
-
-
     .contact {
         font-size: 1.5rem;
         font-weight: 100;
@@ -35,18 +36,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    ul {
-        text-align: left;
+    flex-direction: column;
 
-        li {
-            padding: 1rem 0;
-        }
+    section {
+        display: flex;
+        padding: 2rem 0;
     }
-    
 }
 
 .fa-solid {
-    font-size: 2rem;
-    
+    font-size: 2rem; 
+}
+
+
+@media (max-width: 687px) {
+    .leftContact img {
+        margin-bottom: -10rem;
+    }
 }

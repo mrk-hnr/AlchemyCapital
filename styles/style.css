@@ -41,7 +41,7 @@ body {
 
 .bgHome {
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-leeloo-thefirst-8358144.jpg") repeat scroll center bottom;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/blockchain.jpg") repeat scroll center bottom;
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 87%;
@@ -69,7 +69,7 @@ body {
 
 .bgstatement {
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/pexels-alesia-kozik-6771664.jpg") repeat scroll center bottom;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/statement.jpg") repeat scroll center bottom;
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 65%;

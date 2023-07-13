@@ -611,9 +611,9 @@ nav .mainMenu {
   margin-left: -12rem;
 }
 
-@media (max-width: 687px) {
-  .teamContainer imf {
-    margin-bottom: 1rem;
+@media (max-width: 799px) {
+  .teamTwo {
+    margin-left: 0;
   }
 }
 .contactContentOne {

@@ -45,7 +45,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 87%;
-  opacity: 0.8;
+  opacity: 0.7;
   padding: 0;
   text-align: center;
   display: flex;
@@ -97,10 +97,9 @@ body {
 
 .bgContact {
   flex-wrap: wrap;
-  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/contact.jpg") repeat scroll center bottom;
+  background: linear-gradient(0deg, rgba(69, 69, 69, 0.5), rgba(69, 69, 69, 0.5)), url("../images/contact.jpg") no-repeat scroll center bottom;
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: 50%;
   opacity: 0.8;
   padding: 0;
   text-align: center;
@@ -118,20 +117,28 @@ body {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 .logo {
   font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   font-weight: lighter;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   margin: 0.6rem;
   font-size: 1.5rem;
   cursor: pointer;
 }
 .logo h1 {
   padding-left: 1rem;
+}
+.logo img {
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: -2rem;
+  margin-right: -5rem;
 }
 
 .closeMenu {
@@ -150,6 +157,7 @@ nav .mainMenu {
 }
 
 .mainMenu li a {
+  margin-top: 0.5rem;
   display: inline-block;
   padding: 1.5rem;
   text-decoration: none;
@@ -212,7 +220,7 @@ nav .mainMenu {
 .headerTextContainer h1 {
   margin-top: -10rem;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .nonHomeSize {

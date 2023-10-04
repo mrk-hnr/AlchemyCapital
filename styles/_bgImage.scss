@@ -14,7 +14,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position-y: 87%;
-    opacity: .8;
+    opacity: .7;
     padding: 0;
     text-align: center;
     display: flex;
@@ -76,10 +76,10 @@
 
 .bgContact {
     flex-wrap: wrap;
-    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/contact.jpg") repeat scroll center bottom;
+    background: linear-gradient(0deg, rgb(69, 69, 69, 0.500), rgba(69, 69, 69, 0.500)), url("../images/contact.jpg") no-repeat scroll center bottom;
     background-size: cover;
     background-attachment: fixed;
-    background-position-y: 50%;
+    // background-position-y: 200%;
     opacity: .8;
     padding: 0;
     text-align: center;
@@ -100,6 +100,6 @@
         opacity: 0;
     }
     100% {
-        opacity: 1;
+        opacity: .7;
     }
 }
